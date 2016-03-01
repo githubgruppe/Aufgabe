@@ -1,5 +1,6 @@
 <?php
 session_start(); 
+$vorname = $_POST['Vorname'];
 $benutzername = $_POST['benutzer'];
 $passwort = $_POST['passwort'];
 $con = mysqli_connect("localhost","user","123","lehrer");
